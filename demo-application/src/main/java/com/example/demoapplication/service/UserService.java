@@ -2,7 +2,7 @@ package com.example.demoapplication.service;
 
 public interface UserService {
 
-    void registerUser();
+    void registerUser(String name, String email, String pass);
 
     void logInUser();
 

@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
-    <link rel="stylesheet" th:href="@{/styles.css}" href = "../static/styles.css">
+    <link rel="stylesheet" th:href="@{/styles.css}">
 </head>
 <body>
 
 <form th:method="post" th:action = "@{/register}">
     <input name ="name" placeholder="name"></input>
+    <input name ="email" placeholder="email"></input>
     <input name ="pass" placeholder="password"></input>
 
     <button type = "submit">SUBMIT</button>
